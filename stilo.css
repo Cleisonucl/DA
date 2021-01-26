@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    padding-right: 20px;
+   background-image: url("imagens/fundo1.png");
+    /*background: linear-gradient(#fefefe, #888888);*/
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    padding-top: 200px;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.voce{
+    width: 260px;
+    height: 260px;
+    padding-bottom: 60px;
+}
+.principal {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.h {
+    padding-top: 0px;
+}
+
+#for {
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.fotos img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+    font-size: 16px;
+
+}
+
+.fotoo {
+    width: 150px;
+    height: 150px;
+
+
+}
+
+
+.box {
+
+    display: inline-block;
+    font-size: 13px;
+
+}
+.corpo{
+   padding-top: 30px;
+}
+
+.cor {
+    width: 180px;
+    height: 180px;
+}
+.cor:hover{
+    box-sizing: border-box;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px
+}
+
+
+.dist {
+    padding-top: -30px;
+}
+
+.tam {
+    width: 200px;
+    height: 200px;
+}
+.tam:hover{
+    box-sizing: border-box;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px
+}
+#botao {
+    font: bold 24px Helvetica;
+    font-style: normal;
+    color: #ffffff;
+    background: #158bd9;
+    border: 8px solid #ffffff;
+    text-shadow: -1px 2px 0px #2e2d2e;
+    box-shadow: 0px 0px 4px #11ff00;
+    -moz-box-shadow: 0px 0px 4px #00ff66;
+    -webkit-box-shadow: 0px 0px 4px #00ffff;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    width: 200px;
+    padding: 20px 40px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#botao:active {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+}
+
